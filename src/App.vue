@@ -1,16 +1,16 @@
 <template>
   
-  <Noticebtn></Noticebtn>
+  <NoticeBtn></NoticeBtn>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import Noticebtn from './components/noticebtn.vue';
+import NoticeBtn from './components/noticebtn.vue';
 
 
 @Options({
   components: {
-    Noticebtn,
+    NoticeBtn,
   },
 })
 export default class App extends Vue {}
