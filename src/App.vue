@@ -5,8 +5,8 @@
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
-import MainHeader from './components/mainheader.vue'
-import NoticeBtn from './components/noticebtn.vue';
+import MainHeader from './components/main-header.vue'
+import NoticeBtn from './components/notice-btn.vue';
 
 
 
