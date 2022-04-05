@@ -8,7 +8,7 @@
       <shopping-cart />
     </el-icon>
     <span style="vertical-align: middle;"> 购买 </span>
-  </el-button>
+    </el-button>
     
     
     
@@ -18,11 +18,11 @@
 <script lang="ts" setup>
 
 import {ElNotification} from 'element-plus'
-import {ElIcon} from 'element-plus'
 import { h } from 'vue';
 import {ShoppingCart} from '@element-plus/icons-vue'
 const open1 = () => {
-  ElNotification.success({
+  ElNotification({
+    type: 'success',
     title: '成功',
     message: h('p', { style: 'color: green' }, '购买成功！'),
     duration: 2000,

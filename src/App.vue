@@ -1,15 +1,18 @@
 <template>
-  
+  <MainHeader></MainHeader>
   <NoticeBtn></NoticeBtn>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from 'vue-class-component';
+import MainHeader from './components/mainheader.vue'
 import NoticeBtn from './components/noticebtn.vue';
+
 
 
 @Options({
   components: {
+    MainHeader,
     NoticeBtn,
   },
 })
